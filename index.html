@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMOS Audio Comparison · RU</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .audio-card { border: 1px solid #e5e7eb; background: white; min-width: 0; }
+        .audio-card audio { width: 100%; min-width: 260px; }
+        .gender-section { border: 1px solid #e2e8f0; border-radius: 1rem; padding: 1.25rem; background: #f8fafc; }
+        .gender-section h4 { font-size: 0.75rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: #64748b; margin-bottom: 1rem; }
+        #main-app { display: none; }
+        #guide-panel, #notebook-panel { position: sticky; top: 1.5rem; max-height: calc(100vh - 3rem); overflow-y: auto; }
+        .text-block { border-left-width: 4px; }
+        .text-block-raw { border-color: #f59e0b; background: #fffbeb; }
+        .text-block-normalized { border-color: #8b5cf6; background: #f5f3ff; }
+        .eval-guide ol { margin: 0; padding-left: 1.1rem; }
+        .eval-guide li { margin-bottom: 0.75rem; color: #475569; font-size: 0.8125rem; line-height: 1.55; }
+        .eval-guide li:last-child { margin-bottom: 0; }
+        .eval-guide li strong { color: #334155; }
+        .eval-guide ul { margin: 0.3rem 0 0; padding-left: 1rem; list-style-type: lower-alpha; }
+        .eval-guide ul li { margin-bottom: 0.2rem; font-size: 0.75rem; line-height: 1.5; }
+        .eval-guide kbd { font-size: 0.7rem; }
+        .audio-card.audio-playing { border-color: #8b5cf6; box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.25); }
+        .audio-shortcut { margin-left: auto; font-size: 0.7rem; font-family: ui-monospace, monospace; color: #94a3b8; background: #f1f5f9; border: 1px solid #e2e8f0; border-radius: 0.375rem; padding: 0.1rem 0.4rem; }
+    </style>
+</head>
+<body class="bg-slate-50 min-h-screen">
+
+    <div id="loading-screen" class="flex flex-col items-center justify-center min-h-screen">
+        <div class="bg-white p-10 rounded-3xl shadow-2xl text-center max-w-md w-full mx-4">
+            <h1 class="text-3xl font-extrabold text-gray-800 mb-2">CMOS Audio Comparison</h1>
+            <p class="text-gray-500 mb-4">Google 离线 TTS vs 我们的模型</p>
+            <p id="loading-status" class="text-violet-600 font-medium">Loading...</p>
+        </div>
+    </div>
+
+    <div id="main-app" class="max-w-[96rem] mx-auto py-8 px-4">
+        <div class="flex flex-col xl:flex-row gap-6 items-start">
+            <aside id="guide-panel" class="w-full xl:w-72 shrink-0 order-2 xl:order-1">
+                <div class="bg-white border border-gray-200 shadow-xl rounded-2xl p-4">
+                    <h3 class="font-bold text-gray-800 mb-3">评测说明</h3>
+                    <div class="eval-guide">
+                        <ol>
+                            <li>
+                                <strong>检查合成是否正确。</strong>请确认我们的模型是否正确合成了音频，未出现读错、漏读等问题。常见错误来源包括：
+                                <ul>
+                                    <li><strong>TN 归一化错误</strong>：Normalized Text 与 Original Text 语义不对应；</li>
+                                    <li><strong>合成错误</strong>：归一化结果正确，但合成的音频仍不符合文本内容；</li>
+                                </ul>
+                                <li><strong>NOTE</strong>：Original / Normalized Text 中可能出现emoji表情、换行符`\n`或冗余标点。未影响听感时可忽略；若明显导致问题（例如标点处出现额外杂音），请记录下来。</li>
+                            </li>
+                            <li>
+                                <strong>听感对比。</strong>将我们的模型音频与 Google 离线 TTS 进行对比：男声与男声比，女声与女声比。无需逐条打分，但请在全部听完后给出<strong>整体判断</strong>——我们的模型在听感上是否优于 Google 离线 TTS。
+                            </li>
+                            <li>
+                                <strong>记录笔记。</strong>右侧 Notebook 可跨条目保留内容，可随时记录判断与意见，并在评测结束后导出 txt 文件。
+                            </li>
+                            <li>
+                                <strong>操作提示。</strong>使用键盘 <kbd class="px-1 py-0.5 bg-slate-100 border border-gray-300 rounded text-xs font-mono">←</kbd> / <kbd class="px-1 py-0.5 bg-slate-100 border border-gray-300 rounded text-xs font-mono">→</kbd> 切换上一条 / 下一条；<kbd class="px-1 py-0.5 bg-slate-100 border border-gray-300 rounded text-xs font-mono">1</kbd>–<kbd class="px-1 py-0.5 bg-slate-100 border border-gray-300 rounded text-xs font-mono">4</kbd> 快捷播放四个音频（男 Google / 男我们 / 女 Google / 女我们）；也可通过中间区域右上角跳转到指定条目。
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </aside>
+
+            <div class="flex-1 min-w-0 w-full bg-white shadow-xl rounded-2xl p-6 md:p-8 order-1 xl:order-2">
+                <div class="flex flex-wrap justify-between items-start gap-4 border-b pb-6 mb-6">
+                    <div class="min-w-0 flex-1">
+                        <h2 class="text-xl font-bold text-gray-800">Русский · 同性别对比</h2>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-3 shrink-0">
+                        <div id="progress" class="text-lg font-mono font-bold text-violet-600 bg-violet-50 px-4 py-2 rounded-lg">0 / 0</div>
+                        <div class="flex items-center gap-2">
+                            <label for="jump-input" class="text-sm text-gray-500 whitespace-nowrap">跳转到</label>
+                            <input
+                                id="jump-input"
+                                type="text"
+                                inputmode="numeric"
+                                placeholder="001"
+                                class="w-16 px-2 py-1.5 border border-gray-200 rounded-lg text-sm font-mono text-center focus:ring-2 focus:ring-violet-300 focus:border-violet-400 outline-none"
+                            />
+                            <button onclick="jumpToItem()" class="px-3 py-1.5 text-sm bg-violet-600 hover:bg-violet-700 text-white rounded-lg font-medium">GO</button>
+                        </div>
+                    </div>
+                </div>
+
+                <section id="text-section" class="mb-8 space-y-4"></section>
+
+                <div id="audio-grid" class="grid gap-6 mb-8"></div>
+
+                <div class="flex justify-between items-center pt-4 border-t">
+                    <button onclick="prevItem()" class="px-8 py-3 text-gray-400 hover:text-violet-600 font-bold transition">← PREV</button>
+                    <span id="item-id" class="text-sm font-mono text-gray-400"></span>
+                    <button onclick="nextItem()" class="px-8 py-3 bg-gray-100 text-gray-600 rounded-xl hover:bg-gray-200 transition font-bold">NEXT →</button>
+                </div>
+            </div>
+
+            <aside id="notebook-panel" class="w-full xl:w-72 shrink-0 order-3">
+                <div class="bg-white border border-gray-200 shadow-xl rounded-2xl p-4 flex flex-col h-full">
+                    <div class="mb-3">
+                        <h3 class="font-bold text-gray-800">笔记本 Notebook</h3>
+                        <p class="text-xs text-gray-500 mt-1">笔记自动保存在浏览器本地。评测结束后请点击「导出笔记」提交 txt 文件。</p>
+                    </div>
+                    <textarea
+                        id="notebook"
+                        placeholder="在此记录听感问题，例如：&#10;012 说话人1 有爆音&#10;025 韵律不自然..."
+                        class="w-full flex-1 p-3 border border-gray-200 rounded-xl text-sm leading-relaxed focus:ring-2 focus:ring-violet-300 focus:border-violet-400 outline-none resize-none min-h-[240px] xl:min-h-[calc(100vh-12rem)]"
+                    ></textarea>
+                    <div class="flex items-center justify-between gap-2 mt-3 pt-3 border-t border-gray-100">
+                        <span id="save-status" class="text-xs text-gray-400"></span>
+                        <div class="flex gap-2">
+                            <button onclick="importNotebook()" class="px-3 py-2 text-sm bg-gray-100 hover:bg-gray-200 rounded-lg font-medium whitespace-nowrap">导入笔记</button>
+                            <button onclick="exportNotebook()" class="px-4 py-2 text-sm bg-violet-600 hover:bg-violet-700 text-white rounded-lg font-medium whitespace-nowrap">导出笔记</button>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <script>
+        const NOTEBOOK_KEY = 'cmos_compare_notebook_ru';
+
+        let rawData = {};
+        let keys = [];
+        let currentIndex = 0;
+        let saveTimer = null;
+
+        function loadNotebook() {
+            document.getElementById('notebook').value = localStorage.getItem(NOTEBOOK_KEY) || '';
+        }
+
+        function scheduleNotebookSave() {
+            const content = document.getElementById('notebook').value;
+            localStorage.setItem(NOTEBOOK_KEY, content);
+            clearTimeout(saveTimer);
+            saveTimer = setTimeout(() => {
+                document.getElementById('save-status').textContent = '已自动保存到浏览器';
+            }, 300);
+        }
+
+        function importNotebook() {
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.accept = '.txt,text/plain';
+            input.onchange = () => {
+                const file = input.files?.[0];
+                if (!file) return;
+                const reader = new FileReader();
+                reader.onload = () => {
+                    document.getElementById('notebook').value = reader.result;
+                    scheduleNotebookSave();
+                };
+                reader.readAsText(file, 'utf-8');
+            };
+            input.click();
+        }
+
+        function exportNotebook() {
+            const content = document.getElementById('notebook').value;
+            const date = new Date().toISOString().slice(0, 10).replace(/-/g, '');
+            const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `cmos_ru_notebook_${date}.txt`;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function pauseAllAudio() {
+            document.querySelectorAll('audio').forEach(a => { a.pause(); a.currentTime = 0; });
+            document.querySelectorAll('.audio-card.audio-playing').forEach(c => c.classList.remove('audio-playing'));
+        }
+
+        function playAudioBySlot(slot) {
+            pauseAllAudio();
+            const audio = document.querySelector(`audio[data-audio-slot="${slot}"]`);
+            if (!audio) return;
+            const card = audio.closest('.audio-card');
+            if (card) card.classList.add('audio-playing');
+            audio.play().catch(() => {});
+        }
+
+        function bindAudioSlotEvents() {
+            document.querySelectorAll('audio[data-audio-slot]').forEach(audio => {
+                audio.onended = () => audio.closest('.audio-card')?.classList.remove('audio-playing');
+                audio.onpause = () => {
+                    if (audio.currentTime === 0 || audio.ended) {
+                        audio.closest('.audio-card')?.classList.remove('audio-playing');
+                    }
+                };
+            });
+        }
+
+        function loadData() {
+            fetch('ru_data.json')
+                .then(res => {
+                    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                    return res.json();
+                })
+                .then(data => {
+                    rawData = data;
+                    keys = Object.keys(data).sort();
+                    if (keys.length === 0) throw new Error('JSON 为空');
+
+                    document.getElementById('loading-screen').style.display = 'none';
+                    document.getElementById('main-app').style.display = 'block';
+
+                    currentIndex = 0;
+                    loadNotebook();
+                    renderCurrent();
+                })
+                .catch(err => {
+                    document.getElementById('loading-status').textContent = '加载失败';
+                    alert('加载失败: ' + err.message + '\n请先运行 bash update_audio.sh');
+                });
+        }
+
+        function buildTextBlock(label, text, extraClass) {
+            return `
+                <div>
+                    <h3 class="text-xs font-black text-gray-400 uppercase tracking-widest mb-2">${label}</h3>
+                    <div class="text-block ${extraClass} p-5 rounded-xl text-gray-700 leading-relaxed text-lg">${escapeHtml(text)}</div>
+                </div>
+            `;
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text || '';
+            return div.innerHTML;
+        }
+
+        function renderTextSection(item) {
+            const section = document.getElementById('text-section');
+            section.innerHTML = [
+                buildTextBlock('原文 · Original Text', item.raw_text, 'text-block-raw'),
+                buildTextBlock('归一化后 · Normalized Text', item.normalized_text, 'text-block-normalized')
+            ].join('');
+        }
+
+        function buildAudioCard(label, color, src, missingText, slot) {
+            const hasAudio = !!src;
+            return `
+                <div class="audio-card p-4 rounded-xl shadow-sm space-y-3">
+                    <label class="text-sm font-bold text-gray-600 flex items-center w-full">
+                        <span class="w-6 h-6 ${color} rounded-full flex items-center justify-center mr-2 text-xs text-white font-black shrink-0">${label[0]}</span>
+                        <span class="truncate">${label}</span>
+                        ${hasAudio ? `<span class="audio-shortcut shrink-0">${slot}</span>` : ''}
+                    </label>
+                    ${hasAudio
+                        ? `<audio data-audio-slot="${slot}" controls class="w-full" preload="auto" src="${src}"></audio>`
+                        : `<div class="text-sm text-amber-600 bg-amber-50 border border-amber-200 rounded-lg p-3">${missingText}</div>`
+                    }
+                </div>
+            `;
+        }
+
+        function buildGenderSection(title, googleSrc, ourSrc, googleColor, ourColor, googleSlot, ourSlot) {
+            return `
+                <section class="gender-section">
+                    <h4>${title}</h4>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        ${buildAudioCard('Google 离线 TTS', googleColor, googleSrc, 'Google 音频缺失', googleSlot)}
+                        ${buildAudioCard('我们的模型', ourColor, ourSrc, '我们的音频缺失，请检查 sources/ 并运行 update_audio.sh', ourSlot)}
+                    </div>
+                </section>
+            `;
+        }
+
+        function renderCurrent() {
+            const id = keys[currentIndex];
+            const item = rawData[id];
+            document.getElementById('progress').innerText = `${currentIndex + 1} / ${keys.length}`;
+            document.getElementById('item-id').innerText = `ID: ${id}`;
+            document.getElementById('jump-input').value = id;
+            renderTextSection(item);
+
+            const grid = document.getElementById('audio-grid');
+            pauseAllAudio();
+
+            grid.className = 'grid grid-cols-1 gap-6 mb-8';
+            grid.innerHTML = [
+                buildGenderSection('男声 Male', item.male.google_audio, item.male.our_audio, 'bg-slate-500', 'bg-violet-500', 1, 2),
+                buildGenderSection('女声 Female', item.female.google_audio, item.female.our_audio, 'bg-slate-500', 'bg-fuchsia-500', 3, 4)
+            ].join('');
+            bindAudioSlotEvents();
+
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function nextItem() {
+            if (currentIndex < keys.length - 1) {
+                currentIndex++;
+                renderCurrent();
+            }
+        }
+
+        function prevItem() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                renderCurrent();
+            }
+        }
+
+        function normalizeItemId(input) {
+            const trimmed = input.trim();
+            if (!trimmed) return null;
+            if (/^\d+$/.test(trimmed)) {
+                const num = parseInt(trimmed, 10);
+                if (num < 1) return null;
+                return String(num).padStart(3, '0');
+            }
+            return keys.includes(trimmed) ? trimmed : null;
+        }
+
+        function jumpToItem() {
+            const input = document.getElementById('jump-input');
+            const targetId = normalizeItemId(input.value);
+            if (!targetId) {
+                input.classList.add('ring-2', 'ring-red-300', 'border-red-400');
+                setTimeout(() => input.classList.remove('ring-2', 'ring-red-300', 'border-red-400'), 600);
+                return;
+            }
+            const idx = keys.indexOf(targetId);
+            if (idx === -1) {
+                input.classList.add('ring-2', 'ring-red-300', 'border-red-400');
+                setTimeout(() => input.classList.remove('ring-2', 'ring-red-300', 'border-red-400'), 600);
+                return;
+            }
+            currentIndex = idx;
+            renderCurrent();
+        }
+
+        document.getElementById('jump-input').addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                jumpToItem();
+            }
+        });
+
+        document.getElementById('notebook').addEventListener('input', scheduleNotebookSave);
+
+        document.addEventListener('keydown', (e) => {
+            if (e.target.tagName === 'TEXTAREA' || e.target.id === 'jump-input') return;
+            if (e.key === 'ArrowRight') nextItem();
+            if (e.key === 'ArrowLeft') prevItem();
+            if (e.key >= '1' && e.key <= '4') {
+                e.preventDefault();
+                playAudioBySlot(Number(e.key));
+            }
+        });
+
+        loadData();
+    </script>
+</body>
+</html>

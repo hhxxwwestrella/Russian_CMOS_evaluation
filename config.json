@@ -1,0 +1,20 @@
+{
+    "num_items": 100,
+    "spk_id_mapping": {
+        "ru_male": 3,
+        "ru_female": 2
+    },
+    "google": {
+        "ru_male_dir": "sources/google/ru_male",
+        "ru_female_dir": "sources/google/ru_female"
+    },
+    "our": {
+        "ru_male_dir": "sources/our/ru_male",
+        "ru_female_dir": "sources/our/ru_female",
+        "ru_text_dir": "sources/our/ru_text"
+    },
+    "naming": {
+        "google_wav": "{n}.wav",
+        "our_ru_wav": "ru-CMOS{idx:03d}.wav"
+    }
+}

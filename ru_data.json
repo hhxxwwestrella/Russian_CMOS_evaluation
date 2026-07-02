@@ -1,0 +1,1202 @@
+{
+    "001": {
+        "raw_text": "Адрес не распознан. Пожалуйста, проверьте и повторите попытку.",
+        "normalized_text": "Адрес не распознан. Пожалуйста, проверьте и повторите попытку.",
+        "male": {
+            "google_audio": "./sources/google/ru_male/1.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS000.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/1.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS000.wav"
+        }
+    },
+    "002": {
+        "raw_text": "Вам нужно открыть парковочное место или добавить новое?",
+        "normalized_text": "Вам нужно открыть парковочное место или добавить новое?",
+        "male": {
+            "google_audio": "./sources/google/ru_male/2.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS001.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/2.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS001.wav"
+        }
+    },
+    "003": {
+        "raw_text": "Ваш вопрос немного чувствительный, и я не могу на него ответить.",
+        "normalized_text": "Ваш вопрос немного чувствительный, и я не могу на него ответить.",
+        "male": {
+            "google_audio": "./sources/google/ru_male/3.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS002.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/3.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS002.wav"
+        }
+    },
+    "004": {
+        "raw_text": "Какое приложение мне нужно закрыть?",
+        "normalized_text": "Какое приложение мне нужно закрыть?",
+        "male": {
+            "google_audio": "./sources/google/ru_male/4.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS003.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/4.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS003.wav"
+        }
+    },
+    "005": {
+        "raw_text": "Вот ваши будильники. Какой из них вы хотите включить? Вы можете сказать \"Первый\" или \"Второй.\"",
+        "normalized_text": "Вот ваши будильники. Какой из них вы хотите включить? Вы можете сказать \"Первый\" или \"Второй.\"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/5.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS004.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/5.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS004.wav"
+        }
+    },
+    "006": {
+        "raw_text": "Время напоминания не распознано. Добавление заметки в расписание отменено.",
+        "normalized_text": "Время напоминания не распознано. Добавление заметки в расписание отменено.",
+        "male": {
+            "google_audio": "./sources/google/ru_male/6.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS005.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/6.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS005.wav"
+        }
+    },
+    "007": {
+        "raw_text": "Выключение будильника отменено.",
+        "normalized_text": "Выключение будильника отменено.",
+        "male": {
+            "google_audio": "./sources/google/ru_male/7.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS006.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/7.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS006.wav"
+        }
+    },
+    "008": {
+        "raw_text": "Извините, пока я не могу воспроизвести для вас указанную песню.",
+        "normalized_text": "Извините, пока я не могу воспроизвести для вас указанную песню.",
+        "male": {
+            "google_audio": "./sources/google/ru_male/8.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS007.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/8.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS007.wav"
+        }
+    },
+    "009": {
+        "raw_text": "Извините, сейчас я не могу включить для вас режим низкого энергопотребления.",
+        "normalized_text": "Извините, сейчас я не могу включить для вас режим низкого энергопотребления.",
+        "male": {
+            "google_audio": "./sources/google/ru_male/9.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS008.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/9.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS008.wav"
+        }
+    },
+    "010": {
+        "raw_text": "Извините, сейчас я не могу включить режим велосипеда для вас.",
+        "normalized_text": "Извините, сейчас я не могу включить режим велосипеда для вас.",
+        "male": {
+            "google_audio": "./sources/google/ru_male/10.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS009.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/10.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS009.wav"
+        }
+    },
+    "011": {
+        "raw_text": "Извините, удаление указанной заметки выходит за пределы моих возможностей.",
+        "normalized_text": "Извините, удаление указанной заметки выходит за пределы моих возможностей.",
+        "male": {
+            "google_audio": "./sources/google/ru_male/11.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS010.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/11.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS010.wav"
+        }
+    },
+    "012": {
+        "raw_text": "Извините, я всё ещё учусь как находить ваше парковочное место.",
+        "normalized_text": "Извините, я всё ещё учусь как находить ваше парковочное место.",
+        "male": {
+            "google_audio": "./sources/google/ru_male/12.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS011.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/12.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS011.wav"
+        }
+    },
+    "013": {
+        "raw_text": "Как вы хотите назвать это событие?",
+        "normalized_text": "Как вы хотите назвать это событие?",
+        "male": {
+            "google_audio": "./sources/google/ru_male/13.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS012.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/13.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS012.wav"
+        }
+    },
+    "014": {
+        "raw_text": "Какую громкость вы хотите установить?",
+        "normalized_text": "Какую громкость вы хотите установить?",
+        "male": {
+            "google_audio": "./sources/google/ru_male/14.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS013.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/14.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS013.wav"
+        }
+    },
+    "015": {
+        "raw_text": "Кому Вы хотите его отправить?",
+        "normalized_text": "Кому Вы хотите его отправить?",
+        "male": {
+            "google_audio": "./sources/google/ru_male/15.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS014.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/15.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS014.wav"
+        }
+    },
+    "016": {
+        "raw_text": "Контакты не найдены. Попробуйте еще раз.",
+        "normalized_text": "Контакты не найдены. Попробуйте еще раз.",
+        "male": {
+            "google_audio": "./sources/google/ru_male/16.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS015.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/16.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS015.wav"
+        }
+    },
+    "017": {
+        "raw_text": "На какое время мне установить ваш будильник?",
+        "normalized_text": "На какое время мне установить ваш будильник?",
+        "male": {
+            "google_audio": "./sources/google/ru_male/17.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS016.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/17.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS016.wav"
+        }
+    },
+    "018": {
+        "raw_text": "Найдено несколько контактов. Кому из них вы хотите отправить сообщение?",
+        "normalized_text": "Найдено несколько контактов. Кому из них вы хотите отправить сообщение?",
+        "male": {
+            "google_audio": "./sources/google/ru_male/18.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS017.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/18.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS017.wav"
+        }
+    },
+    "019": {
+        "raw_text": "Не удается распознать конкретную информацию о событии. Подтвердите и попробуйте еще раз.",
+        "normalized_text": "Не удается распознать конкретную информацию о событии. Подтвердите и попробуйте еще раз.",
+        "male": {
+            "google_audio": "./sources/google/ru_male/19.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS018.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/19.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS018.wav"
+        }
+    },
+    "020": {
+        "raw_text": "Пожалуйста,укажите адрес вашей парковки?",
+        "normalized_text": "Пожалуйста,укажите адрес вашей парковки?",
+        "male": {
+            "google_audio": "./sources/google/ru_male/20.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS019.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/20.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS019.wav"
+        }
+    },
+    "021": {
+        "raw_text": "Привет, что записать?",
+        "normalized_text": "Привет, что записать?",
+        "male": {
+            "google_audio": "./sources/google/ru_male/21.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS020.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/21.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS020.wav"
+        }
+    },
+    "022": {
+        "raw_text": "Просмотр контактов отменен.",
+        "normalized_text": "Просмотр контактов отменен.",
+        "male": {
+            "google_audio": "./sources/google/ru_male/22.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS021.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/22.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS021.wav"
+        }
+    },
+    "023": {
+        "raw_text": "С Новым годом! Пусть все ваши желания сбудутся 🥳",
+        "normalized_text": "С Новым годом! Пусть все ваши желания сбудутся",
+        "male": {
+            "google_audio": "./sources/google/ru_male/23.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS022.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/23.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS022.wav"
+        }
+    },
+    "024": {
+        "raw_text": "Эта функция временно не поддерживается.",
+        "normalized_text": "Эта функция временно не поддерживается.",
+        "male": {
+            "google_audio": "./sources/google/ru_male/24.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS023.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/24.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS023.wav"
+        }
+    },
+    "025": {
+        "raw_text": "Я неустанно стремлюсь стать лучше. Приглашаю Вас ознакомиться с новейшими изменениями и улучшениями, которые я приготовил!",
+        "normalized_text": "Я неустанно стремлюсь стать лучше. Приглашаю Вас ознакомиться с новейшими изменениями и улучшениями, которые я приготовил!",
+        "male": {
+            "google_audio": "./sources/google/ru_male/25.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS024.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/25.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS024.wav"
+        }
+    },
+    "026": {
+        "raw_text": "\"я понимаю, что ты говоришь. не волнуйся, я здесь, чтобы помочь. что конкретно ты имеешь в виду под \"\"странным\"\"? может быть, ты хочешь рассказать мне о чем-то, что тебя беспокоит? \\n\"",
+        "normalized_text": "\"я понимаю, что ты говоришь. не волнуйся, я здесь, чтобы помочь. что конкретно ты имеешь в виду под \"\"странным\"\"? может быть, ты хочешь рассказать мне о чем-то, что тебя беспокоит? \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/26.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS025.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/26.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS025.wav"
+        }
+    },
+    "027": {
+        "raw_text": "\"здравствуйте! я могу помочь вам с информацией, но, к сожалению, не обладаю доступом к данным о номерах автомобилей. могу ли я чем-нибудь ещё помочь? \\n\"",
+        "normalized_text": "\"здравствуйте! я могу помочь вам с информацией, но, к сожалению, не обладаю доступом к данным о номерах автомобилей. могу ли я чем-нибудь ещё помочь? \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/27.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS026.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/27.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS026.wav"
+        }
+    },
+    "028": {
+        "raw_text": "\"привет! чем могу помочь? 😊 \\n\"",
+        "normalized_text": "\"привет! чем могу помочь? 。 \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/28.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS027.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/28.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS027.wav"
+        }
+    },
+    "029": {
+        "raw_text": "хорошо, пользователь спрашивает, что такое паническая атака. нужно дать точное определение, описать симптомы, причины, длительность и методы лечения. посмотрю результаты поиска.",
+        "normalized_text": "хорошо, пользователь спрашивает, что такое паническая атака. нужно дать точное определение, описать симптомы, причины, длительность и методы лечения. посмотрю результаты поиска.",
+        "male": {
+            "google_audio": "./sources/google/ru_male/29.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS028.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/29.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS028.wav"
+        }
+    },
+    "030": {
+        "raw_text": "да, цены действительно меняются, и это может быть сложно предсказать. но я постараюсь помочь вам, если вы уточните, что именно вас интересует. может быть, вы ищете информацию о каких-то конкретных товарах или услугах?",
+        "normalized_text": "да, цены действительно меняются, и это может быть сложно предсказать. но я постараюсь помочь вам, если вы уточните, что именно вас интересует. может быть, вы ищете информацию о каких-то конкретных товарах или услугах?",
+        "male": {
+            "google_audio": "./sources/google/ru_male/30.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS029.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/30.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS029.wav"
+        }
+    },
+    "031": {
+        "raw_text": "\"привет! я здесь, чтобы помочь. что ты имеешь в виду? что тебе нужно? \\n\"",
+        "normalized_text": "\"привет! я здесь, чтобы помочь. что ты имеешь в виду? что тебе нужно? \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/31.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS030.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/31.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS030.wav"
+        }
+    },
+    "032": {
+        "raw_text": "я могу помочь вам с информацией о ценах на алкоголь. судя по предоставленным данным, информация о конкретной цене на \"морзини\" в магазинах \"красное & белое\" не предоставлена.",
+        "normalized_text": "я могу помочь вам с информацией о ценах на алкоголь. судя по предоставленным данным, информация о конкретной цене на \"морзини\" в магазинах \"красное & белое\" не предоставлена.",
+        "male": {
+            "google_audio": "./sources/google/ru_male/32.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS031.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/32.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS031.wav"
+        }
+    },
+    "033": {
+        "raw_text": "конечно! выход на международные рынки - это очень интересная задача. чтобы помочь вам, мне нужно больше информации. что именно вас интересует?",
+        "normalized_text": "конечно! выход на международные рынки - это очень интересная задача. чтобы помочь вам, мне нужно больше информации. что именно вас интересует?",
+        "male": {
+            "google_audio": "./sources/google/ru_male/33.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS032.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/33.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS032.wav"
+        }
+    },
+    "034": {
+        "raw_text": "\"я могу помочь вам с информацией о сберегательных книжках и начислении процентов. если деньги лежат на сберкнижке, то, скорее всего, на них будут начисляться проценты. однако, чтобы точно ответить на ваш вопрос, нужно учитывать несколько факторов. \\n\"",
+        "normalized_text": "\"я могу помочь вам с информацией о сберегательных книжках и начислении процентов. если деньги лежат на сберкнижке, то, скорее всего, на них будут начисляться проценты. однако, чтобы точно ответить на ваш вопрос, нужно учитывать несколько факторов. \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/34.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS033.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/34.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS033.wav"
+        }
+    },
+    "035": {
+        "raw_text": "\"\\n\\nсогласно предоставленным данным, в багаже можно перевозить лекарства, соблюдая некоторые правила .\\n\\nважно отметить, что правила ввоза или вывоза лекарств на международных рейсах следует уточнять в таможенной службе аэропорта вылета .\\n\"",
+        "normalized_text": "\"。 согласно предоставленным данным, в багаже можно перевозить лекарства, соблюдая некоторые правила . важно отметить, что правила ввоза или вывоза лекарств на международных рейсах следует уточнять в таможенной службе аэропорта вылета . \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/35.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS034.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/35.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS034.wav"
+        }
+    },
+    "036": {
+        "raw_text": "\"о, кожа - это интересно! что именно вас интересует в коже? может быть, хотите узнать о ее свойствах, происхождении или применении? или, может быть, у вас есть конкретный вопрос о коже, на который я могу ответить?\\n\"",
+        "normalized_text": "\"о, кожа - это интересно! что именно вас интересует в коже? может быть, хотите узнать о ее свойствах, происхождении или применении? или, может быть, у вас есть конкретный вопрос о коже, на который я могу ответить? \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/36.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS035.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/36.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS035.wav"
+        }
+    },
+    "037": {
+        "raw_text": "\"я вижу, что вы просите меня сказать вам, какая это глава. к сожалению, я не понимаю, о какой главе вы спрашиваете. не могли бы вы уточнить свой вопрос? \\n\"",
+        "normalized_text": "\"я вижу, что вы просите меня сказать вам, какая это глава. к сожалению, я не понимаю, о какой главе вы спрашиваете. не могли бы вы уточнить свой вопрос? \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/37.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS036.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/37.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS036.wav"
+        }
+    },
+    "038": {
+        "raw_text": "\"в заключение, используя огурцы, помидоры и сыр сиртаки, вы можете быстро и легко приготовить множество вкусных и полезных блюд, от простых салатов до более сложных вариантов.\\n\"",
+        "normalized_text": "\"в заключение, используя огурцы, помидоры и сыр сиртаки, вы можете быстро и легко приготовить множество вкусных и полезных блюд, от простых салатов до более сложных вариантов. \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/38.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS037.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/38.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS037.wav"
+        }
+    },
+    "039": {
+        "raw_text": "\"полнометражный анимационный фильм \"\"унесенные призраками\"\" был создан японским режиссером хаяо миядзаки . \\n\"",
+        "normalized_text": "\"полнометражный анимационный фильм \"\"унесенные призраками\"\" был создан японским режиссером хаяо миядзаки . \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/39.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS038.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/39.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS038.wav"
+        }
+    },
+    "040": {
+        "raw_text": "\"виктория, звучит интересно! значит, у вас есть собачка гуся, и вы заметили, что они похожи на что-то... на сыры? 😊 могу я узнать, какие именно сыры вы имеете в виду? и что именно делает их похожими на гусю?\\n\"",
+        "normalized_text": "\"виктория, звучит интересно! значит, у вас есть собачка гуся, и вы заметили, что они похожи на что-то... на сыры?  могу я узнать, какие именно сыры вы имеете в виду? и что именно делает их похожими на гусю? \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/40.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS039.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/40.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS039.wav"
+        }
+    },
+    "041": {
+        "raw_text": "\"да, это действительно так! жизнь на земле зародилась примерно 4,2 миллиарда лет назад. это удивительно долгий период времени, полный изменений и эволюции! \\n\"",
+        "normalized_text": "\"да, это действительно так! жизнь на земле зародилась примерно четыре целых две десятых миллиарда лет назад. это удивительно долгий период времени, полный изменений и эволюции! \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/41.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS040.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/41.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS040.wav"
+        }
+    },
+    "042": {
+        "raw_text": "\"сейчас мне интересно помочь тебе! 😊 я здесь, чтобы отвечать на вопросы, рассказывать интересные факты, генерировать тексты и многое другое. что бы ты хотела узнать или сделать?\\n\"",
+        "normalized_text": "\"сейчас мне интересно помочь тебе!  я здесь, чтобы отвечать на вопросы, рассказывать интересные факты, генерировать тексты и многое другое. что бы ты хотела узнать или сделать? \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/42.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS041.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/42.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS041.wav"
+        }
+    },
+    "043": {
+        "raw_text": "\"вы имеете в виду геометрические фигуры? если да, то у них нет места. они существуют в пространстве, но не имеют физического места, как, например, у предметов. \\n\"",
+        "normalized_text": "\"вы имеете в виду геометрические фигуры? если да, то у них нет места. они существуют в пространстве, но не имеют физического места, как, например, у предметов. \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/43.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS042.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/43.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS042.wav"
+        }
+    },
+    "044": {
+        "raw_text": "\"официальный курс евро к рублю на 30 октября 2025 года составляет 92,24 рубля . курс снизился по сравнению с 29 октября, когда он составлял 92,93 рубля . \\n\"",
+        "normalized_text": "\"официальный курс евро к рублю на тридцать октября две тысячи двадцать пятого года составляет девяносто два целых двадцать четыре сотых рубля . курс снизился по сравнению с двадцать девятого октября, когда он составлял девяносто два целых девяносто три сотых рубля . \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/44.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS043.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/44.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS043.wav"
+        }
+    },
+    "045": {
+        "raw_text": "стоимость 95 бензина в германии может варьироваться. в мае 2024 года средняя цена составляла 1,82 евро . исторический максимум для бензина 95 в германии был 2,275 евро .",
+        "normalized_text": "стоимость девяносто пять бензина в германии может варьироваться. в мае две тысячи двадцать четвертого года средняя цена составляла одна целая восемьдесят две сотых евро . исторический максимум для бензина девяносто пять в германии был две тысячи двести семьдесят пять евро .",
+        "male": {
+            "google_audio": "./sources/google/ru_male/45.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS044.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/45.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS044.wav"
+        }
+    },
+    "046": {
+        "raw_text": "\"привет! я знаю, что алиса - это голосовой помощник от яндекса. она может отвечать на вопросы, устанавливать будильники, включать музыку и многое другое. а ты сама/сам знаешь, кто такая алиса?\\\\n\"",
+        "normalized_text": "\"привет! я знаю, что алиса - это голосовой помощник от яндекса. она может отвечать на вопросы, устанавливать будильники, включать музыку и многое другое. а ты сама/сам знаешь, кто такая алиса?\\。 \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/46.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS045.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/46.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS045.wav"
+        }
+    },
+    "047": {
+        "raw_text": "как я могу вам помочь?",
+        "normalized_text": "как я могу вам помочь?",
+        "male": {
+            "google_audio": "./sources/google/ru_male/47.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS046.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/47.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS046.wav"
+        }
+    },
+    "048": {
+        "raw_text": "\"в заключение, варикозное расширение вен может быть вызвано различными факторами, включая генетику, образ жизни и другие медицинские состояния . \"",
+        "normalized_text": "\"в заключение, варикозное расширение вен может быть вызвано различными факторами, включая генетику, образ жизни и другие медицинские состояния . \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/48.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS047.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/48.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS047.wav"
+        }
+    },
+    "049": {
+        "raw_text": "\"в заключение, уникальность цивилизации тольтеков заключалась в их происхождении, культурном синтезе, архитектурных достижениях и влиянии на другие культуры мезоамерики, особенно на ацтеков.\"",
+        "normalized_text": "\"в заключение, уникальность цивилизации тольтеков заключалась в их происхождении, культурном синтезе, архитектурных достижениях и влиянии на другие культуры мезоамерики, особенно на ацтеков.\"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/49.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS048.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/49.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS048.wav"
+        }
+    },
+    "050": {
+        "raw_text": "\"\\n1. войсковая часть в алуште\\n\\nв алуште зарегистрирована войсковая часть 28735, которая является федеральным государственным казенным учреждением . основной вид деятельности данной организации - обеспечение общественного порядка и безопасности . учредителем является фсб россии .\\n\\n\"",
+        "normalized_text": "\"。 один.  войсковая часть в алуште。 в алуште зарегистрирована войсковая часть двадцать восемь тысяч семьсот тридцать пять, которая является федеральным государственным казенным учреждением . основной вид деятельности данной организации - обеспечение общественного порядка и безопасности . учредителем является фсб россии . \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/50.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS049.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/50.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS049.wav"
+        }
+    },
+    "051": {
+        "raw_text": "\"а.х. бенкендорф не входил в негласный комитет александра i. в состав негласного комитета входили:\\n- н.н. новосильцев\\n- а. чарторыйский\\n- в.п. кочубей\\n- п.а. строгонов\"\\n\"",
+        "normalized_text": "\"а точка х. бенкендорф не входил в негласный комитет александра i. в состав негласного комитета входили: - н точка н. новосильцев。 - а. чарторыйский。 - в точка п. кочубей。 - п точка а. строгонов\"。 \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/51.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS050.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/51.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS050.wav"
+        }
+    },
+    "052": {
+        "raw_text": "если вы имеете в виду что-то впечатляющее или неожиданное, можете уточнить? если же речь о чувствительных темах, связанных с политикой, я не смогу помочь. давайте обсудим что-то другое! 😊\"",
+        "normalized_text": "если вы имеете в виду что-то впечатляющее или неожиданное, можете уточнить? если же речь о чувствительных темах, связанных с политикой, я не смогу помочь. давайте обсудим что-то другое! \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/52.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS051.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/52.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS051.wav"
+        }
+    },
+    "053": {
+        "raw_text": "\"понятно, вы сейчас в караганде. что-то конкретное хотите узнать или сделать? \"",
+        "normalized_text": "\"понятно, вы сейчас в караганде. что-то конкретное хотите узнать или сделать? \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/53.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS052.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/53.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS052.wav"
+        }
+    },
+    "054": {
+        "raw_text": "\"да, это действительно хорошая новость! увеличение частоты электричек — отличный способ справиться с большим потоком пассажиров и сделать поездки более комфортными. рада, что вы заметили это улучшение.\"",
+        "normalized_text": "\"да, это действительно хорошая новость! увеличение частоты электричек — отличный способ справиться с большим потоком пассажиров и сделать поездки более комфортными. рада, что вы заметили это улучшение.\"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/54.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS053.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/54.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS053.wav"
+        }
+    },
+    "055": {
+        "raw_text": "\"да, вы правы. грецкий орех - это вид ореха, а \"\"2-й\"\" - это, скорее всего, просто порядковое числительное. что-то еще могу для вас сделать?\"",
+        "normalized_text": "\"да, вы правы. грецкий орех - это вид ореха, а \"\"2-й\"\" - это, скорее всего, просто порядковое числительное. что-то еще могу для вас сделать?\"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/55.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS054.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/55.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS054.wav"
+        }
+    },
+    "056": {
+        "raw_text": "\"я не знаю, где сейчас показывают кино. могу ли я чем-нибудь ещё помочь?\"",
+        "normalized_text": "\"я не знаю, где сейчас показывают кино. могу ли я чем-нибудь ещё помочь?\"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/56.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS055.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/56.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS055.wav"
+        }
+    },
+    "057": {
+        "raw_text": "привет! я вижу, ты интересуешься brawl stars. что именно ты хочешь узнать об этой игре? может быть, тебе нужна какая-то информация о персонажах, режимах игры или обновлениях? с удовольствием помогу!",
+        "normalized_text": "привет! я вижу, ты интересуешься brawl stars. что именно ты хочешь узнать об этой игре? может быть, тебе нужна какая-то информация о персонажах, режимах игры или обновлениях? с удовольствием помогу!",
+        "male": {
+            "google_audio": "./sources/google/ru_male/57.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS056.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/57.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS056.wav"
+        }
+    },
+    "058": {
+        "raw_text": "\"мне очень жаль, но я все еще не понимаю ваш вопрос. пожалуйста, попробуйте сформулировать его более четко. \"",
+        "normalized_text": "\"мне очень жаль, но я все еще не понимаю ваш вопрос. пожалуйста, попробуйте сформулировать его более четко. \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/58.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS057.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/58.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS057.wav"
+        }
+    },
+    "059": {
+        "raw_text": "\"всегда пожалуйста! если что, обращайтесь. хорошего вам вечера!\"",
+        "normalized_text": "\"всегда пожалуйста! если что, обращайтесь. хорошего вам вечера!\"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/59.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS058.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/59.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS058.wav"
+        }
+    },
+    "060": {
+        "raw_text": "\"я могу помочь вам с информацией о современных таблетках. компьютерные технологии все глубже проникают в сферу здравоохранения, что приводит к появлению новых лекарств и методов лечения . \"",
+        "normalized_text": "\"я могу помочь вам с информацией о современных таблетках. компьютерные технологии все глубже проникают в сферу здравоохранения, что приводит к появлению новых лекарств и методов лечения . \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/60.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS059.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/60.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS059.wav"
+        }
+    },
+    "061": {
+        "raw_text": "\"конечно, можно! установка защитного стекла - это отличный способ защитить экран вашего телефона от царапин и повреждений. вы можете поставить его в любое время, независимо от того, было ли у вас раньше защитное стекло или нет.\"",
+        "normalized_text": "\"конечно, можно! установка защитного стекла - это отличный способ защитить экран вашего телефона от царапин и повреждений. вы можете поставить его в любое время, независимо от того, было ли у вас раньше защитное стекло или нет.\"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/61.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS060.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/61.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS060.wav"
+        }
+    },
+    "062": {
+        "raw_text": "\"понимаю ваше беспокойство. если у вас возникнут какие-либо проблемы с телефоном, не стесняйтесь обращаться ко мне за помощью. я постараюсь сделать все, что в моих силах.\"",
+        "normalized_text": "\"понимаю ваше беспокойство. если у вас возникнут какие-либо проблемы с телефоном, не стесняйтесь обращаться ко мне за помощью. я постараюсь сделать все, что в моих силах.\"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/62.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS061.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/62.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS061.wav"
+        }
+    },
+    "063": {
+        "raw_text": "\"понимаю вашу обеспокоенность. сейчас в интернете много мошенников, и важно быть осторожным. если у вас возникли подозрения, лучше перестраховаться и проверить информацию.\"",
+        "normalized_text": "\"понимаю вашу обеспокоенность. сейчас в интернете много мошенников, и важно быть осторожным. если у вас возникли подозрения, лучше перестраховаться и проверить информацию.\"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/63.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS062.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/63.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS062.wav"
+        }
+    },
+    "064": {
+        "raw_text": "\"нанопластика волос - это процедура, предназначенная для разглаживания и укрепления волос с использованием специального средства .\"",
+        "normalized_text": "\"нанопластика волос - это процедура, предназначенная для разглаживания и укрепления волос с использованием специального средства .\"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/64.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS063.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/64.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS063.wav"
+        }
+    },
+    "065": {
+        "raw_text": "\"караганда находится в казахстане и является столицей карагандинской области . это один из крупнейших городов страны, занимающий пятое место по численности населения . \"",
+        "normalized_text": "\"караганда находится в казахстане и является столицей карагандинской области . это один из крупнейших городов страны, занимающий пятое место по численности населения . \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/65.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS064.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/65.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS064.wav"
+        }
+    },
+    "066": {
+        "raw_text": "я могу помочь вам с информацией о местоимениях. местоимения «я», «ты», «мы», «вы» и подобные относятся к личным местоимениям . они не могут быть названы существительными, поскольку выполняют иную функцию в предложении.",
+        "normalized_text": "я могу помочь вам с информацией о местоимениях. местоимения «я», «ты», «мы», «вы» и подобные относятся к личным местоимениям . они не могут быть названы существительными, поскольку выполняют иную функцию в предложении.",
+        "male": {
+            "google_audio": "./sources/google/ru_male/66.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS065.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/66.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS065.wav"
+        }
+    },
+    "067": {
+        "raw_text": "\"семь квадратных метров, да? это вполне себе площадь! что вы хотели узнать про эти семь метров?\"",
+        "normalized_text": "\"семь квадратных метров, да? это вполне себе площадь! что вы хотели узнать про эти семь метров?\"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/67.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS066.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/67.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS066.wav"
+        }
+    },
+    "068": {
+        "raw_text": "\"да, пока что для вызова меня вам нужно будет нажать кнопку. но я постараюсь быть максимально полезной, когда вы меня позовете!\"",
+        "normalized_text": "\"да, пока что для вызова меня вам нужно будет нажать кнопку. но я постараюсь быть максимально полезной, когда вы меня позовете!\"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/68.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS067.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/68.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS067.wav"
+        }
+    },
+    "069": {
+        "raw_text": "\"я не могу писать рецепты, так как я всего лишь языковая модель. для получения рецепта вам следует обратиться к врачу. \"",
+        "normalized_text": "\"я не могу писать рецепты, так как я всего лишь языковая модель. для получения рецепта вам следует обратиться к врачу. \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/69.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS068.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/69.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS068.wav"
+        }
+    },
+    "070": {
+        "raw_text": "\"поздравляю! отличная новость! пятерка - это всегда приятно. рад/а за тебя! что тебе больше всего понравилось в этой работе?\"",
+        "normalized_text": "\"поздравляю! отличная новость! пятерка - это всегда приятно. рад/а за тебя! что тебе больше всего понравилось в этой работе?\"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/70.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS069.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/70.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS069.wav"
+        }
+    },
+    "071": {
+        "raw_text": "\"к сожалению, я пока не умею делиться рецептами. но я уверена, что у вас получится приготовить вкусные пирожки! если захотите поделиться своим рецептом, я буду рада узнать его. \"",
+        "normalized_text": "\"к сожалению, я пока не умею делиться рецептами. но я уверена, что у вас получится приготовить вкусные пирожки! если захотите поделиться своим рецептом, я буду рада узнать его. \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/71.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS070.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/71.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS070.wav"
+        }
+    },
+    "072": {
+        "raw_text": "\"я понимаю, вы ищете что-то, связанное с сыном. могу я чем-нибудь помочь вам в этом вопросе? возможно, вы хотите узнать что-то конкретное?\"",
+        "normalized_text": "\"я понимаю, вы ищете что-то, связанное с сыном. могу я чем-нибудь помочь вам в этом вопросе? возможно, вы хотите узнать что-то конкретное?\"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/72.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS071.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/72.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS071.wav"
+        }
+    },
+    "073": {
+        "raw_text": "\"здравствуйте! я понимаю, что вам нужна информация о ваших правах. к сожалению, я не могу предоставить юридическую консультацию. \\n\\nчтобы я могла вам помочь, пожалуйста, уточните, какие именно права вас интересуют. например, это может быть:\\n\"",
+        "normalized_text": "\"здравствуйте! я понимаю, что вам нужна информация о ваших правах. к сожалению, я не могу предоставить юридическую консультацию. чтобы я могла вам помочь, пожалуйста, уточните, какие именно права вас интересуют. например, это может быть: \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/73.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS072.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/73.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS072.wav"
+        }
+    },
+    "074": {
+        "raw_text": "я могу помочь вам с информацией об играх, в которых нет насилия. вот несколько вариантов, где можно найти такие игры:",
+        "normalized_text": "я могу помочь вам с информацией об играх, в которых нет насилия. вот несколько вариантов, где можно найти такие игры:",
+        "male": {
+            "google_audio": "./sources/google/ru_male/74.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS073.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/74.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS073.wav"
+        }
+    },
+    "075": {
+        "raw_text": "алиса - это голосовой помощник от яндекса . алиса способна генерировать тексты и изображения, помогать в решении сложных задач и анализировать файлы . она также умеет находить информацию, отвечать на вопросы, открывать приложения и многое другое .",
+        "normalized_text": "алиса - это голосовой помощник от яндекса . алиса способна генерировать тексты и изображения, помогать в решении сложных задач и анализировать файлы . она также умеет находить информацию, отвечать на вопросы, открывать приложения и многое другое .",
+        "male": {
+            "google_audio": "./sources/google/ru_male/75.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS074.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/75.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS074.wav"
+        }
+    },
+    "076": {
+        "raw_text": "\"япония — самая успешная команда на турнире, выигравшая четыре титула кубка азии .\"",
+        "normalized_text": "\"япония — самая успешная команда на турнире, выигравшая четыре титула кубка азии .\"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/76.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS075.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/76.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS075.wav"
+        }
+    },
+    "077": {
+        "raw_text": "\"\\n\\nблачный засев: этот метод включает в себя изменение погодных условий для увеличения или уменьшения осадков. для этого используются самолеты, которые распыляют в облаках специальные вещества, например, соли, чтобы вызвать дождь .\\n\"",
+        "normalized_text": "\"。 блачный засев: этот метод включает в себя изменение погодных условий для увеличения или уменьшения осадков. для этого используются самолеты, которые распыляют в облаках специальные вещества, например, соли, чтобы вызвать дождь . \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/77.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS076.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/77.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS076.wav"
+        }
+    },
+    "078": {
+        "raw_text": "\"имя земфира имеет различные версии происхождения . по одной из них, имя имеет иранские корни и происходит от слова «сапфир» . земфира талгатовна рамазанова, более известная как земфира, — российская рок-певица, музыкант .\\n\"",
+        "normalized_text": "\"имя земфира имеет различные версии происхождения . по одной из них, имя имеет иранские корни и происходит от слова «сапфир» . земфира талгатовна рамазанова, более известная как земфира, — российская рок-певица, музыкант . \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/78.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS077.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/78.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS077.wav"
+        }
+    },
+    "079": {
+        "raw_text": "\"что именно вы не видите? не могли бы вы рассказать подробнее?\\n\"",
+        "normalized_text": "\"что именно вы не видите? не могли бы вы рассказать подробнее? \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/79.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS078.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/79.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS078.wav"
+        }
+    },
+    "080": {
+        "raw_text": "\"я понимаю, что вы имеете в виду. не могли бы вы уточнить, что именно вы имеете в виду? я постараюсь вам помочь.\\n\"",
+        "normalized_text": "\"я понимаю, что вы имеете в виду. не могли бы вы уточнить, что именно вы имеете в виду? я постараюсь вам помочь. \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/80.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS079.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/80.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS079.wav"
+        }
+    },
+    "081": {
+        "raw_text": "я могу помочь вам с информацией о том, как ус\\nокоить старшего ребенка. важно понимать, что успокоение старшего ребенка зависит от его возраста и причин беспокойства. вот несколько способов, которые могут быть полезными:",
+        "normalized_text": "я могу помочь вам с информацией о том, как ус。 окоить старшего ребенка. важно понимать, что успокоение старшего ребенка зависит от его возраста и причин беспокойства. вот несколько способов, которые могут быть полезными:",
+        "male": {
+            "google_audio": "./sources/google/ru_male/81.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS080.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/81.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS080.wav"
+        }
+    },
+    "082": {
+        "raw_text": "\"конфетки! жаль, что вы не доели их. какие именно конфеты у вас были? может быть, расскажете о них?",
+        "normalized_text": "\"конфетки! жаль, что вы не доели их. какие именно конфеты у вас были? может быть, расскажете о них?",
+        "male": {
+            "google_audio": "./sources/google/ru_male/82.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS081.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/82.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS081.wav"
+        }
+    },
+    "083": {
+        "raw_text": "n\"\\nчто вы хотите изменить?\\n\"",
+        "normalized_text": "эн\"。 что вы хотите изменить? \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/83.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS082.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/83.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS082.wav"
+        }
+    },
+    "084": {
+        "raw_text": "\"\\n\\nспатифиллум – красивое и полезное растение, которое при правильном уходе будет радовать вас своими цветами и очищать воздух в вашем доме. \\n\"",
+        "normalized_text": "\"。 спатифиллум – красивое и полезное растение, которое при правильном уходе будет радовать вас своими цветами и очищать воздух в вашем доме. \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/84.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS083.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/84.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS083.wav"
+        }
+    },
+    "085": {
+        "raw_text": "\"я уверена, что у меня все получилось отлично! а как ты думаешь, как я справилась? \\n\"",
+        "normalized_text": "\"я уверена, что у меня все получилось отлично! а как ты думаешь, как я справилась? \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/85.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS084.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/85.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS084.wav"
+        }
+    },
+    "086": {
+        "raw_text": "\"сочувствую, это неприятно! постарайтесь отдохнуть и выпить воды. если боль не проходит, лучше обратиться к врачу. желаю вам скорейшего выздоровления! \\n\"",
+        "normalized_text": "\"сочувствую, это неприятно! постарайтесь отдохнуть и выпить воды. если боль не проходит, лучше обратиться к врачу. желаю вам скорейшего выздоровления! \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/86.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS085.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/86.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS085.wav"
+        }
+    },
+    "087": {
+        "raw_text": "\"здравствуйте! к сожалению, я не могу быть отключена в настройках телефона. я являюсь частью операционной системы и всегда готова помочь вам. если у вас возникнут какие-либо вопросы или нужна помощь, просто спросите! \\n\"",
+        "normalized_text": "\"здравствуйте! к сожалению, я не могу быть отключена в настройках телефона. я являюсь частью операционной системы и всегда готова помочь вам. если у вас возникнут какие-либо вопросы или нужна помощь, просто спросите! \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/87.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS086.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/87.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS086.wav"
+        }
+    },
+    "088": {
+        "raw_text": "\"я понимаю. могу ли я вам чем-нибудь еще помочь?\\n\"",
+        "normalized_text": "\"я понимаю. могу ли я вам чем-нибудь еще помочь? \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/88.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS087.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/88.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS087.wav"
+        }
+    },
+    "089": {
+        "raw_text": "\"конечно! вот еще одно поздравление в стиле маяковского\\n\\nэй, слушайте! сегодня праздник, факт! \\nрожденья день! гуляй, душа! \\nпусть будет жизнь, как яркий акт, \\nи счастье льется, не спеша! \\n\\n\"",
+        "normalized_text": "\"конечно! вот еще одно поздравление в стиле маяковского。 эй, слушайте! сегодня праздник, факт! рожденья день! гуляй, душа! пусть будет жизнь, как яркий акт, и счастье льется, не спеша! \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/89.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS088.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/89.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS088.wav"
+        }
+    },
+    "090": {
+        "raw_text": "\"конечно, я постараюсь ответить так, чтобы было понятно и запоминалось. о чем именно вы хотели бы поговорить? \\n\"",
+        "normalized_text": "\"конечно, я постараюсь ответить так, чтобы было понятно и запоминалось. о чем именно вы хотели бы поговорить? \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/90.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS089.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/90.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS089.wav"
+        }
+    },
+    "091": {
+        "raw_text": "\"отлично! если у вас появятся новые вопросы или нужна будет помощь, просто дайте знать. я всегда готов помочь!\\n\"",
+        "normalized_text": "\"отлично! если у вас появятся новые вопросы или нужна будет помощь, просто дайте знать. я всегда готов помочь! \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/91.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS090.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/91.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS090.wav"
+        }
+    },
+    "092": {
+        "raw_text": "\"борис михайлович сударушкин (12 ноября 1945, ярославль — 6 февраля 2021) — русский писатель . он является автором повестей «контрагенты», «юность чекиста» .\\\\n\"",
+        "normalized_text": "\"борис михайлович сударушкин (двенадцать ноября одна тысяча девятьсот сорок пять, ярославль — шесть февраля две тысячи двадцать первом) — русский писатель . он является автором повестей «контрагенты», «юность чекиста» .\\。 \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/92.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS091.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/92.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS091.wav"
+        }
+    },
+    "093": {
+        "raw_text": "\"да, эльдар джарахов и mona (дарья кустовская) состоят в отношениях . \\n\"",
+        "normalized_text": "\"да, эльдар джарахов и mona (дарья кустовская) состоят в отношениях . \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/93.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS092.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/93.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS092.wav"
+        }
+    },
+    "094": {
+        "raw_text": "\"здравствуйте, андрей! рада вас видеть. чем могу помочь сегодня?\\n\"",
+        "normalized_text": "\"здравствуйте, андрей! рада вас видеть. чем могу помочь сегодня? \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/94.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS093.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/94.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS093.wav"
+        }
+    },
+    "095": {
+        "raw_text": "президент российской федерации является главой государства . он является гарантом конституции российской федерации, прав и свобод человека и гражданина . президент определяет основные направления внутренней и внешней политики государства и представляет российскую федерацию внутри страны и в международных отношениях .",
+        "normalized_text": "президент российской федерации является главой государства . он является гарантом конституции российской федерации, прав и свобод человека и гражданина . президент определяет основные направления внутренней и внешней политики государства и представляет российскую федерацию внутри страны и в международных отношениях .",
+        "male": {
+            "google_audio": "./sources/google/ru_male/95.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS094.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/95.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS094.wav"
+        }
+    },
+    "096": {
+        "raw_text": "\"я понимаю, что вам нужна информация о ваших пройденных шагах. к сожалению, я не могу отображать эту информацию, так как у меня нет доступа к данным о вашей физической активности. \\n\"",
+        "normalized_text": "\"я понимаю, что вам нужна информация о ваших пройденных шагах. к сожалению, я не могу отображать эту информацию, так как у меня нет доступа к данным о вашей физической активности. \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/96.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS095.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/96.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS095.wav"
+        }
+    },
+    "097": {
+        "raw_text": "\"к сожалению, я не могу рассказать вам анекдот. могу ли я чем-нибудь ещё помочь? \\n\"",
+        "normalized_text": "\"к сожалению, я не могу рассказать вам анекдот. могу ли я чем-нибудь ещё помочь? \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/97.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS096.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/97.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS096.wav"
+        }
+    },
+    "098": {
+        "raw_text": "\"я понимаю, что вы видели экран. что именно вы хотели узнать об этом? может быть, вы хотите рассказать мне об этом подробнее?\\n\"",
+        "normalized_text": "\"я понимаю, что вы видели экран. что именно вы хотели узнать об этом? может быть, вы хотите рассказать мне об этом подробнее? \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/98.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS097.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/98.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS097.wav"
+        }
+    },
+    "099": {
+        "raw_text": "отлично! вот еще одно поздравление с днем тренера, которое еще не появлялось в нашей беседе:",
+        "normalized_text": "отлично! вот еще одно поздравление с днем тренера, которое еще не появлялось в нашей беседе:",
+        "male": {
+            "google_audio": "./sources/google/ru_male/99.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS098.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/99.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS098.wav"
+        }
+    },
+    "100": {
+        "raw_text": "\"к сожалению, я не могу предоставить информацию о том, как незаметно напердеть в классе. моя задача - предоставлять полезную и безопасную информацию, и эта тема выходит за рамки этого. \\n\"",
+        "normalized_text": "\"к сожалению, я не могу предоставить информацию о том, как незаметно напердеть в классе. моя задача - предоставлять полезную и безопасную информацию, и эта тема выходит за рамки этого. \"",
+        "male": {
+            "google_audio": "./sources/google/ru_male/100.wav",
+            "our_audio": "./sources/our/ru_male/ru-CMOS099.wav"
+        },
+        "female": {
+            "google_audio": "./sources/google/ru_female/100.wav",
+            "our_audio": "./sources/our/ru_female/ru-CMOS099.wav"
+        }
+    }
+}
